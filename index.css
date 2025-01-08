@@ -1,0 +1,49 @@
+body {
+}
+
+.navbar {
+    background-color: #03071E;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding-right: 60px;
+    margin: 20px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+
+.botao {
+    background-color: #FF6300;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border-width: thin;
+    border-width: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #FF6300;
+}
+
+.navbar-toggler {
+    background-color: #FF6300;
+}

@@ -1,5 +1,8 @@
 body {
+    background-color: #FFFFFF;
 }
+
+/* Início - Header-Menu */
 
 .navbar {
     background-color: #03071E;
@@ -73,3 +76,62 @@ body {
 .navbar-toggler {
     background-color: #FF6300;
 }
+
+/* Fim - Header-Menu */
+
+
+
+/*Início-Banner-home page*/
+
+.texto {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+/*
+.py-12 {
+    padding-top: 1rem !important;
+    width: 100%;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+    */
+
+
+@media (min-width: 1200px) {
+    .display {
+        font-size: 2rem;
+        text-align: center;
+        font-family: Montserrat;
+    }
+}
+
+
+
+.botao__cadastro {
+    background-color: #03071E;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border-width: thin;
+    border-width: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: dashed;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 7rem;
+  
+}
+
+.mx-lg-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    border-radius: 5px;
+}
+

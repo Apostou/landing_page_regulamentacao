@@ -217,7 +217,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin: 6rem;
 }
 
 @media (min-width: 375px) {

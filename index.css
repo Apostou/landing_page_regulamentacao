@@ -83,7 +83,6 @@ body {
 
 /*Início-Banner-home page*/
 
-
 .texto {
     text-align: justify;
     font-size: 16px;
@@ -101,17 +100,18 @@ body {
         margin-top: 0rem;
         margin-bottom: 1rem;
         text-align: center;
-        margin-left: 1rem; 
-        }
-        .texto {
-            text-align: justify;
-            font-size: 14px;
-            font-weight: 400;
-            font-family: Montserrat;
-            margin-left: 2rem;
-            margin-right: 2rem;
-        }
+        margin-left: 1rem;
     }
+
+    .texto {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
 
 @media (min-width: 375px) {
     .display {
@@ -121,29 +121,31 @@ body {
         margin-top: 0rem;
         margin-bottom: 1rem;
         text-align: center;
-        margin-left: 1rem; 
-        }
-
-        .texto {
-            text-align: justify;
-            font-size: 14px;
-            font-weight: 400;
-            font-family: Montserrat;
-            margin-left: 2rem;
-            margin-right: 2rem;
-        }
+        margin-left: 1rem;
     }
+
+    .texto {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
 
 @media (min-width: 575px) {
-.display {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: Montserrat;
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    margin-left: 1rem; 
+    .display {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: Montserrat;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: 1rem;
     }
+
     .texto {
         text-align: justify;
         font-size: 16px;
@@ -162,22 +164,23 @@ body {
         margin-top: -1rem;
         margin-bottom: 2rem;
         text-align: center;
-        margin-left: 2rem; 
-        }
+        margin-left: 2rem;
     }
+}
 
-    @media (min-width: 992px) {
-        .display {
-            font-size: 30px;
-            font-weight: 800;
-            font-family: Montserrat;
-            margin-top: -1rem;
-            margin-bottom: 2rem;
-            text-align: center;
-            margin-left: 2rem; 
-            }
-        }
-    
+@media (min-width: 992px) {
+    .display {
+        font-size: 30px;
+        font-weight: 800;
+        font-family: Montserrat;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+}
+
+
 .botao__cadastro {
     background-color: #03071E;
     color: #FFFFFF;
@@ -206,3 +209,51 @@ body {
     border-radius: 5px;
 }
 
+/*
+
+/*Instruções*/
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+@media (min-width: 375px) {
+    .col-lg-8 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 575px) {
+    .col-lg-8 {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .col-lg-8 {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-8 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-8 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .col-lg-8 {
+        font-size: 34px;
+    }
+}

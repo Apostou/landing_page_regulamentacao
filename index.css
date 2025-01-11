@@ -221,6 +221,7 @@ body {
     margin-bottom: 2rem;
 }
 
+
 @media (min-width: 375px) {
     .col-lg-8 {
         font-size: 14px;
@@ -231,7 +232,6 @@ body {
     .col-lg-8 {
         font-size: 16px;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -285,3 +285,67 @@ p {
     text-align: center;
     font-size: 18px;
 }
+
+/*Instruções*/
+
+/*Faq-perguntas frequentes*/
+
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    background-color: #e7f1ff;
+    color: #03071E;
+
+}
+
+.accordion {
+    margin: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 376px) {
+    .accordion {
+        margin: 2rem;
+    }
+}
+
+  .accordion-button.collapsed {
+    border: 1px solid #d8d8d8;
+  }
+
+  .bg {
+    background-color: #03071E !important;
+    color: #FFFFFF;
+  }
+
+  /*Faq-perguntas frequentes*/
+
+  /*Footer*/
+  .rodape {
+    color: #FFFFFF;
+  }
+
+  /*Footer*/
+ 

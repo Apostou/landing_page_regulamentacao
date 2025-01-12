@@ -83,6 +83,25 @@ body {
 
 /*Início-Banner-home page*/
 
+@media (max-width: 768px) {
+    .col-md-12 {
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-6 {
+        margin-top: 5rem;
+    }
+}
+
+
 .texto {
     text-align: justify;
     font-size: 16px;
@@ -168,6 +187,7 @@ body {
     }
 }
 
+
 @media (min-width: 992px) {
     .display {
         font-size: 30px;
@@ -177,6 +197,12 @@ body {
         margin-bottom: 2rem;
         text-align: center;
         margin-left: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-6 {
+        margin-top: 10rem;
     }
 }
 
@@ -199,7 +225,7 @@ body {
 }
 
 .py-5 {
-    padding-top: 3rem !important;
+    padding-top: 9rem !important;
     padding-bottom: 3rem !important;
     background-color: #F5F5F5;
 }
@@ -217,7 +243,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-bottom: 2rem;
 }
 
@@ -259,6 +285,14 @@ body {
 @media (min-width: 1400px) {
     .col-lg-8 {
         font-size: 34px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 7rem;
     }
 }
 
@@ -349,8 +383,10 @@ p {
 
   /*Footer*/
  
-
+/* Topo*/
 .top {
     display: flex;
     justify-content: center;
 }
+
+/*Topo*/

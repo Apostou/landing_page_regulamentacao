@@ -239,6 +239,17 @@ body {
 
 /*Instruções*/
 
+/*
+.card-body {
+    background-color: #F5F5F5;
+}
+
+.card__body {
+    background-color: #F5F5F5;
+}
+*/
+
+
 .titulo {
     display: flex;
     justify-content: center;
@@ -303,7 +314,7 @@ body {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100% 100%;
-    background-color: #03071E;
+    background-color: #FF6300;
 }
 
 p {

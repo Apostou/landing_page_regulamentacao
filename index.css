@@ -101,7 +101,6 @@ body {
     }
 }
 
-
 .texto {
     text-align: justify;
     font-size: 16px;
@@ -220,7 +219,7 @@ body {
 
 /*
 
-/*Instruções*/
+/*Aba de Instruções*/
 
 /*
 .card-body {
@@ -231,7 +230,6 @@ body {
     background-color: #F5F5F5;
 }
 */
-
 
 .titulo {
     display: flex;
@@ -268,7 +266,7 @@ body {
     }
 
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -289,7 +287,7 @@ body {
 
 @media (min-width: 1200px) {
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -308,7 +306,7 @@ body {
 
 @media (min-width: 992px) {
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -327,7 +325,7 @@ body {
 
 @media (min-width: 768px) {
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -346,7 +344,7 @@ body {
 
 @media (min-width: 576px) {
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -365,7 +363,7 @@ body {
 
 @media (min-width: 376px) {
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -384,7 +382,7 @@ body {
 
 @media (max-width: 376px) {
     .botao__cadastro {
-        background-color: #03071E;
+        background-color: #FF6300;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;

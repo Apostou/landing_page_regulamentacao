@@ -536,11 +536,25 @@ p {
 
 
   /*Footer*/
+
+  /* footer */
+
+.linkredes {
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+  
+  .nav-link {
+    color: #FFFFFF;
+    text-decoration:dashed;
+  }
   .rodape {
     color: #FFFFFF;
   }
 
   /*Footer*/
+
  
 /* Topo*/
 .top {

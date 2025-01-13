@@ -79,25 +79,23 @@ body {
 
 /* Fim - Header-Menu */
 
-
-
 /*Início-Banner-home page*/
 
 @media (max-width: 768px) {
     .col-md-12 {
-        margin-top: 4rem;
+        margin-top: 7rem;
     }
 }
 
 @media (min-width: 768px) {
     .col-md-12 {
-        margin-top: 4rem;
+        margin-top: 7rem;
     }
 }
 
 @media (min-width: 1200px) {
     .col-lg-6 {
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
 }
 
@@ -110,24 +108,23 @@ body {
     margin-right: 3rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 374px) {
     .display {
         font-size: 20px;
         font-weight: 700;
         font-family: Montserrat;
         margin-top: 0rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
         text-align: center;
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
-
     .texto {
         text-align: justify;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 }
 
@@ -217,11 +214,11 @@ body {
     border-radius: 5px;
 }
 
-/*
+/*Fim - Banner home-page*/
 
 /*Aba de Instruções*/
 
-/*
+/* 
 .card-body {
     background-color: #F5F5F5;
 }
@@ -473,7 +470,7 @@ p {
     font-size: 18px;
 }
 
-/*Instruções*/
+/*Instruções-Fim*/
 
 /*Faq-perguntas frequentes*/
 
@@ -484,6 +481,7 @@ p {
 
 }
 
+/*FAQ-ACORDION*/
 .accordion {
     margin: 2rem;
 }
@@ -527,17 +525,16 @@ p {
     color: #FFFFFF;
   }
 
-  /*Faq-perguntas frequentes*/
+/*FAQ-ACORDION*/
+
+
 
 /*Política de jogo responsável */
 
 /*Política de jogo responsável */
 
 
-
-  /*Footer*/
-
-  /* footer */
+/*Footer*/
 
 .linkredes {
     text-align: center;
@@ -555,8 +552,8 @@ p {
 
   /*Footer*/
 
- 
 /* Topo*/
+
 .top {
     display: flex;
     justify-content: center;

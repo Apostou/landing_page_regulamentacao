@@ -207,23 +207,6 @@ body {
 }
 
 
-.botao__cadastro {
-    background-color: #03071E;
-    color: #FFFFFF;
-    border-radius: 50px;
-    border-width: thin;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: dashed;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 10rem;
-}
-
 .py-5 {
     padding-top: 9rem !important;
     padding-bottom: 3rem !important;
@@ -261,21 +244,21 @@ body {
 @media (min-width: 1400px) {
 .texto {
     text-align: justify;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     font-family: Montserrat;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 .d-block {
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 1rem;
 }
 .display {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 800;
     font-family: Montserrat;
     margin-top: -1rem;
@@ -283,8 +266,142 @@ body {
     text-align: center;
     margin-left: 2rem;
     }
+
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
 }
 
+/*ajuste botão__cadastro*/
+
+@media (min-width: 1200px) {
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 376px) {
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .botao__cadastro {
+        background-color: #03071E;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+/*ajuste botão__cadastro*/
 
 @media (min-width: 375px) {
     .col-lg-8 {

@@ -479,7 +479,7 @@ p {
 
 .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
     border-radius: 0;
-    background-color: #e7f1ff;
+    background-color: #F5F5F5;
     color: #03071E;
 
 }

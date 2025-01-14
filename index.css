@@ -110,7 +110,7 @@ body {
 
 @media (max-width: 375px) {
     .display {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         font-family: Montserrat;
         margin-top: 0rem;
@@ -120,11 +120,12 @@ body {
     }
     .texto {
         text-align: justify;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: Montserrat;
     }
 }
 
@@ -133,7 +134,7 @@ body {
         font-size: 22px;
         font-weight: 800;
         font-family: Montserrat;
-        margin-top: 0rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: center;
         margin-left: 1rem;
@@ -141,13 +142,14 @@ body {
 
     .texto {
         text-align: justify;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         padding-left: 0rem;
         padding-right: 0rem;
+        font-family: Montserrat;
     }
 }
 
@@ -157,19 +159,21 @@ body {
         font-size: 25px;
         font-weight: 700;
         font-family: Montserrat;
-        margin-top: 0rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: center;
         margin-left: 1rem;
+        font-family: Montserrat;
     }
 
     .texto {
         text-align: justify;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: Montserrat;
     }
 }
 
@@ -189,8 +193,9 @@ body {
         font-size: 24px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: Montserrat;
     }
 }
 

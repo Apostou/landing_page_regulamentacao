@@ -430,6 +430,7 @@ body {
     align-items: center;
     margin-top: 7rem;
     margin-bottom: 2rem;
+    font-family: Montserrat;
 }
 
 /*Font-size* Título instruções*/
@@ -438,24 +439,28 @@ body {
         font-size: 14px;
         margin-left: 1rem;
         margin-right: 1rem;
+        font-family: Montserrat;
     }
 }
 
 @media (min-width: 575px) {
     .col-lg-8 {
         font-size: 18px;
+        font-family: Montserrat;
     }
 }
 
 @media (min-width: 768px) {
     .col-lg-8 {
         font-size: 22px;
+        font-family: Montserrat;
     }
 }
 
 @media (min-width: 992px) {
     .col-lg-8 {
         font-size: 22px;
+        font-family: Montserrat;
     }
     .card__body {
         padding-top: 8rem;
@@ -465,12 +470,14 @@ body {
 @media (min-width: 1200px) {
     .col-lg-8 {
         font-size: 26px;
+        font-family: Montserrat;
     }
 }
 
 @media (min-width: 1400px) {
     .col-lg-8 {
         font-size: 34px;
+        font-family: Montserrat;
     }
 }
 
@@ -503,11 +510,13 @@ p {
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-size: 14px;
+    font-family: Montserrat;
 }
 
 .card-title {
     text-align: center;
     font-size: 18px;
+    font-family: Montserrat;
 }
 
 /*Dimensões da imagens da instruções de cadastro*/
@@ -539,6 +548,7 @@ p {
 /*FAQ-ACORDION*/
 .accordion {
     margin: 2rem;
+    font-family: Montserrat;
 }
 
 @media (max-width: 1200px) {

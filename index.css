@@ -504,7 +504,22 @@ p {
     font-size: 18px;
 }
 
-/*Instruções-como realizar o cadastro*/
+/*Dimensões da imagens da instruções de cadastro*/
+
+@media (min-width: 992px) {
+    .d-block {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/*Dimensões da imagens da instruções de cadastro*/
+
+/*Fim de instruções-como realizar o cadastro*/
 
 /*Faq-perguntas frequentes*/
 

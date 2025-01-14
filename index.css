@@ -228,9 +228,10 @@ body {
 }
 
 @media (min-width: 1200px) {
+    /*
     .col-lg-6 {
-        margin-top: 10rem;
-    }
+        margin-top: 0rem;
+    }*/
 }
 
 @media (min-width: 1400px) {
@@ -239,8 +240,8 @@ body {
         font-size: 24px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .d-block {
         width: 100%;

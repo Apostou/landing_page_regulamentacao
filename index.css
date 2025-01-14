@@ -600,10 +600,13 @@ p {
     font-size: 18px;
   }
 
-  .redessociais {
-    padding-left: 7rem;
-    padding-right: 7rem;
+  @media (min-width: 992px) {
+    .redessociais {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
 }
+
   /*Footer*/
 
 /* Topo*/

@@ -211,12 +211,12 @@ body {
         margin-left: 1rem;
     }
     .texto {
-        text-align: justify;
+        text-align: left;
         font-size: 18px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .d-block {
         width: 125%;
@@ -293,6 +293,12 @@ body {
     border-radius: 5px;
 }
 
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: flex;
+    justify-content: center;
+}
 /*ajuste botão__cadastro*/
 
 @media (min-width: 1200px) {

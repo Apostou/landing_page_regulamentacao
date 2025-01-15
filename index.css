@@ -670,12 +670,19 @@ p {
 .top {
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .topo {
     color: black;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
 }
 
 /*Topo*/

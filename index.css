@@ -211,7 +211,7 @@ body {
         margin-left: 1rem;
     }
     .texto {
-        text-align: left;
+        text-align: justify;
         font-size: 18px;
         font-weight: 400;
         font-family: Montserrat;
